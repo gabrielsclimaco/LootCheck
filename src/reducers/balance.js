@@ -7,6 +7,9 @@ const balance = (state = 0, action) => {
     case constants.SET_BALANCE:
       balance = action.balance;
       break;
+    case constants.DEPOSIT:
+      balance = state + action.deposit;
+      break;
     default:
       balance = state;
   }
