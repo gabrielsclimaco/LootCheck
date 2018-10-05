@@ -34,5 +34,12 @@
     "jest-cli": "20.0.4",
     "react-test-renderer": "^16.5.2",
     "redux-mock-store": "^1.5.3"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/index.js",
+      "!src/tempPolyfills.js"
+    ]
   }
 }
