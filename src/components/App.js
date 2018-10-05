@@ -1,5 +1,6 @@
 import React from 'react';
 import Wallet from './Wallet';
+import Loot from './Loot';
 
 const App = () => {
   return (
@@ -7,6 +8,8 @@ const App = () => {
       <h2>Loot Check</h2>
       <hr />
       <Wallet />
+      <hr />
+      <Loot />
     </div>
   )
 }
